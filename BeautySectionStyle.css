@@ -1,0 +1,539 @@
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color:#fffff9;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #fffff9;
+    background-color: #722F37;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  /* FOOTER */
+   /* FOOTER */
+   * {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+ 
+  }
+  
+  html {
+  
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #fffff9;
+  
+  }
+ 
+  body {
+  
+    font-size: 10px;
+    font-weight: 700;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    background-color: #fffff9;
+    
+  }
+  footer {
+    background-color: #fffff9;
+    padding-bottom: 5px;
+  }
+  
+  footer .traveler {
+  
+    padding: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  
+  footer .about--traveler > * {
+  
+    padding: 2rem 4rem;
+  
+  }
+  
+  footer .about--traveler {
+  
+    color: #555;
+    width: 35rem;
+  
+  }
+  
+  footer .about--traveler h2 {
+  
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+    line-height: 1.2;
+  
+  }
+  
+  footer .about--traveler p {
+  
+    font-size: 1.7rem;
+    font-weight: 400;
+  
+  }
+  
+  footer .navigation h3 {
+  
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#bf9b5f;
+  
+    line-height: 2;
+  
+  }
+  
+  footer .navigation .nav--link {
+  
+    list-style-type: none;
+  
+  }
+  
+  footer .navigation .nav--link li {
+  
+    padding: .2rem 0;
+  
+  }
+  
+  footer .navigation .nav--link li a:link,
+  footer .navigation .nav--link li a:visited {
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #555;
+    padding: 1.2rem 0;
+    transition: all .4s;
+  }
+  
+  footer .navigation .nav--link li a:hover {
+  
+    text-decoration: underline;
+  
+  }
+  
+  footer .navigation__other  h3 {
+  
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#bf9b5f;
+  
+    line-height: 2;
+  
+  }
+  
+  footer .navigation__other .other--link {
+  
+    list-style-type: none;
+  
+  }
+  
+  footer .navigation__other .other--link li {
+  
+    padding: .4rem 0;
+  
+  }
+  
+  footer .navigation__other .other--link li a:link,
+  footer .navigation__other .other--link li a:visited {
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #555;
+    padding: 1.8rem 0;
+    transition: all .4s;
+  
+  }
+  
+  footer .navigation__other .other--link li a:hover {
+  
+    text-decoration: underline;
+  
+  }
+  
+  footer .contact {
+  
+    color:#bf9b5f;
+    width: 40rem;
+  
+  }
+p{color: #555;}
+  
+  footer .contact h2 {
+  
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    line-height: 2;
+  
+  }
+  
+  footer .contact p {
+  
+    font-size: 1.7rem;
+    font-weight: 400;
+  
+  }
+  
+  footer .contact .message {
+  
+    margin: 1.4rem 0;
+  
+  }
+  
+  footer .contact .message input[type="email"] {
+  
+    border: 1px solid #f4f4f4;
+    padding: 1.1rem 2rem;
+    width: 17rem;
+    outline: none;
+  
+  }
+  
+  footer .contact .message input[type="button"] {
+  
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1.27rem 1.7rem;
+    color:#fffff9;
+    background: #80274C;
+    border: none;
+    outline: none;
+  
+  }
+  
+  footer .social--icon {
+  
+    list-style-type: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+  
+    margin: 2rem 0;
+  
+  }
+  #cute{ font-size: 1.6rem;
+    font-weight: 700;
+    margin-right: 5.2rem;
+    display: inline-block;
+    padding: .8rem 1.2rem;
+    color:#bf9b5f;
+    background: #fffff9;
+    border-radius: 50%;
+  }
+  
+  footer .social--icon li {
+  
+    margin-right: 1.2rem;
+    display: inline-block;
+    padding: .8rem 1.2rem;
+    color:#fffff9;
+    background: #80274C;
+    border-radius: 50%;
+  
+  }
+  
+  footer .text--credit {
+  
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#bf9b5f;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 4rem;
+  
+  }
+  
+  footer .text--credit span {
+  
+    color: rgb(201, 78, 136);
+  
+  }
+  
+  
+  @media only screen and (max-width: 1280px) {
+  
+    footer .traveler > * {
+  
+        padding: 2rem 3rem;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1080px) {
+  
+    footer .traveler {
+  
+        flex-wrap: wrap;
+  
+    }
+  
+    footer .about--traveler h2 {
+  
+        font-size: 3rem;
+  
+    }
+  
+    footer .about--traveler p {
+  
+        font-size: 1.7rem;
+  
+    }
+  
+    footer .navigation h3 {
+  
+        font-size: 1.7rem;
+  
+    }
+  
+    footer .navigation__other h3 {
+  
+        font-size: 1.7rem;
+  
+    }
+  
+    footer .contact h2 {
+  
+        font-size: 1.7rem;
+    
+    }
+  
+    footer .contact p {
+  
+        font-size: 1.4rem;
+    }
+  
+    footer .navigation .nav--link li a:link,
+    footer .navigation .nav--link li a:visited {
+  
+        font-size: 1.2rem;
+    }
+  
+    footer .navigation__other .other--link li a:link,
+    footer .navigation__other .other--link li a:visited {
+  
+        font-size: 1.2rem;
+  
+    }
+  
+    footer .text--credit {
+  
+        font-size: 1rem;
+    
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 767px) {
+  
+    footer .traveler {
+  
+        flex-wrap: wrap;
+  
+    }
+  
+    footer .about--traveler h2 {
+  
+        font-size: 2.4rem;
+  
+    }
+  
+    footer .about--traveler p {
+  
+        font-size: 1.4rem;
+  
+    }
+  
+    footer .navigation h3 {
+  
+        font-size: 1.5rem;
+  
+    }
+  
+    footer .navigation__other h3 {
+  
+        font-size: 1.5rem;
+  
+    }
+  
+    footer .contact h2 {
+  
+        font-size: 1.5rem;
+    
+    }
+  
+    footer .navigation .nav--link li a:link,
+    footer .navigation .nav--link li a:visited {
+  
+        font-size: 1rem;
+    }
+  
+    footer .navigation__other .other--link li a:link,
+    footer .navigation__other .other--link li a:visited {
+  
+        font-size: 1rem;
+  
+    }
+  
+    footer .text--credit {
+  
+        font-size: .8rem;
+    
+    }
+  }
+    .DivCategories {
+      
+      background-color: #fffff9;
+    }
+  
+  .sectionmakeUp{
+      
+     background-color: #fffff9;
+     
+}
+#ShopAll{
+  font-family: 'Julee', cursive;
+  font-size: 65px;
+ letter-spacing: 4px;
+ padding-top: 60px;
+ margin-left: 30px;
+ color: rgb(150, 44, 88);
+}
+#CATEGORIES{
+    font-size: 15px;
+    color: rgb(150, 44, 88);
+     letter-spacing: 2px;
+     
+     margin-bottom: 14px;
+     margin-left: 30px;
+    
+}
+#buttonAll{
+margin-left: 30px;
+}
+.h1Card{
+margin-top: 10px;
+font-size: 20px;
+}
+/* - - - - - RATINGS */
+.rating {
+    position: absolute;
+    
+    top: 235px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 30px;
+    bottom: 0px;
+    height: 30px;
+   
+   
+    margin: auto;
+    border-radius: 30px;
+    display: block;
+    box-shadow: 0 1px #CCC,
+    0 5px #DDD,
+    0 9px 6px -3px #999;
+
+unicode-bidi: bidi-override;
+direction: rtl;
+
+  }
+  .rating:not(:checked) > input {
+    display: none;
+  }
+  
+  /* - - - - - LIKE*/ 
+  #like {
+    bottom: -65px;}
+  
+  #like:not(:checked) > label {
+    cursor:pointer;
+    float: right;
+    width: 30px;
+    height: 80px;
+    display: block;
+    
+    color: rgba(233, 54, 40, .4);
+    line-height: 33px;
+    text-align: center;
+  }
+  #like:not(:checked) > label:hover,
+  #like:not(:checked) > label:hover ~ label {
+    color: rgba(233, 54, 40, .6);
+  }
+  #like > input:checked + label:hover,
+  #like > input:checked + label:hover ~ label,
+  #like > input:checked ~ label:hover,
+  #like > input:checked ~ label:hover ~ label,
+  #like > label:hover ~ input:checked ~ label {
+    color: rgba(233, 54, 40, .8);
+  }
+  #like > input:checked ~ label {
+    color: rgb(233, 54, 40);
+  }
+  
+  #divLike{
+ height: 500;
+  }
+  #buttonCard{
+  margin-top: 50px;
+  }
+
+#sectionmakeUp{
+  display: flex;
+  flex-wrap: nowrap;
+}
+#buttonCard{
+color:#fffff9;
+
+}
+
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 3px 5px #bf9b5f, 0 0px 5px #bf9b5f;
+}
